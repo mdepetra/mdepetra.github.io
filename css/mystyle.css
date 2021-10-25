@@ -72,14 +72,15 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-#name .name-container {
+/* Name e 404 Section */
+#name,#d404 .container {
   padding: 15px;
   margin-left: 5px;
   margin-right: 5px;
   position: relative;
 }
 
-#name h1 {
+#name,#d404 h1 {
   margin: 0 0 5px 0;
   font-size: 42px;
   font-weight: 700;
@@ -87,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#name p {
+#name,#d404 p {
   color: #fff;
   margin-bottom: 20px;
   font-size: 26px;
@@ -104,10 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 30px;
   overflow: hidden;
-}
-
-.section-bg {
-  background: #f5f8fd;
+  background: white /*#f5f8fd*/;
 }
 
 .section-title {

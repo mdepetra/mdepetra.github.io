@@ -1,5 +1,29 @@
+body {
+    height: 100%;
+    /*background: url("../images/56697721.png") top center;
+    background: rgba(5, 13, 24, 0.3);
+    background: linear-gradient(to right, #D24335 55%, #6E4CD2);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    opacity: .5;*/
+    background: linear-gradient(-45deg, #a5ee52, #2bd5db, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    text-align: center;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 /* Home button */
-  .homebtn {
+.homebtn {
     border: 3px solid #173b6c;
     border-radius: 5px;
     display: inline-block;
@@ -22,3 +46,4 @@
     color: #173b6c;
     background-color: transparent;
   }
+
