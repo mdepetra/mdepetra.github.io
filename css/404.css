@@ -1,0 +1,24 @@
+/* Home button */
+  .homebtn {
+    border: 3px solid #173b6c;
+    border-radius: 5px;
+    display: inline-block;
+    outline: 0;
+    padding: 12px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #173b6c;
+    text-align: center;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+  }
+    
+  .homebtn:hover {
+    color: #173b6c;
+    background-color: transparent;
+  }
