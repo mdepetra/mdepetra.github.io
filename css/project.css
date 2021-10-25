@@ -45,9 +45,8 @@
 }
 
 .card-body {
-  /* move the padding to the card-body */
   text-align: center;
-  height: 200px; /* Changed this height */
+  height: 200px;
   padding-bottom: 70px;
 }
 
