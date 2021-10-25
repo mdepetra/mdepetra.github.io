@@ -1,19 +1,4 @@
 /* Scroll bar */
-.scrolling-wrapper-flexbox {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-  width: 100%;
-  -webkit-overflow-scrolling: touch;
-} 
-.scrolling-wrapper-flexbox .card {
-  flex: 0 0 auto;
-  display: inline-block;
-}
-
-/* Old Scroll bar */
-/*
 .scrolling-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
@@ -21,12 +6,27 @@
   height: 100%;
   width: 100%;
   -webkit-overflow-scrolling: touch;
+  justify-content: center;
 }
 
 .scrolling-wrapper .card {
   display: inline-block;
 }
-*/
+
+/* Old Scroll bar */
+/*.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  justify-content: center;
+} 
+.scrolling-wrapper-flexbox .card {
+  flex: 0 0 auto;
+  display: inline-block;
+}*/
 
 /* Card */
 .card {
