@@ -38,6 +38,7 @@
   background-color: transparent;
   top: 0px;
   text-align: center;
+  position: relative;
 }
 
 .card:hover {
@@ -92,4 +93,47 @@ button {
 button:hover {
   color: #173b6c;
   background-color: white;
+}
+
+/* Ribbon */
+.ribbon {
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0,0,0,.15);
+  letter-spacing: -2px;
+  display: block;
+  width: auto;
+  height: auto;
+  background: linear-gradient(to bottom, #999999 0%,#CCCCCC 100%);
+  color: white;
+  float: left;
+  padding: 16px 6px;
+  position: absolute;
+  right: 10px;
+  top: -3px;
+  border-radius: 3px;
+  filter: drop-shadow(0 8px 3px rgba(0,0,0,.5));
+  transform: translate3d(0, 0, 0);
+}
+
+/* Ribbon To start */
+.to-start{
+  padding: 16px 9.42px 16px 9.43px;
+  background: linear-gradient(to bottom, #D3362D 0%,#E57368 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 8px), 0 100%);
+}
+
+/* Ribbon Work in progress */
+.progress{
+  padding: 16px 7.08px 16px 7.2px;
+  background: linear-gradient(to bottom, #F1CA3A 0%,#F6EB3B 100%);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8px), 50% 100%, 0 calc(100% - 8px));
+}
+
+/* Ribbon Complete */
+.check{
+  background: linear-gradient(to bottom, #5f9654 0%,#65b045 100%);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), 40% 100%, 0 calc(100% - 12px));
 }

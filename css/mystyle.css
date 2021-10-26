@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Social Links */
-.fa {
+.fa-social {
   padding: 20px;
   font-size: 40px;
   width: 50px;
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.fa:hover {
+.fa-social:hover {
   color: #173b6c;
   transform: scale(1.1) perspective(1px)
 }
