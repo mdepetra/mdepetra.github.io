@@ -95,6 +95,11 @@ button:hover {
   background-color: white;
 }
 
+.disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
 /* Ribbon */
 .ribbon {
   font-size: 32px;
